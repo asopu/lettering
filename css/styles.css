@@ -1,4 +1,7 @@
-/* My Styling Here */ 
-h1 {
-    color: lightseagreen;
+.first {
+  color: orange;
 }
+.last {
+  color: gray;
+}
+

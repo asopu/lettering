@@ -1,7 +1,24 @@
-// My Scripts
-
-console.log('Hello World');
 
 
-// Selector Action Options
-$('h1').hide(5000);
+
+// Default Show No Name
+
+
+
+// Get & Store First Name
+
+var firstName = prompt();
+//console.log(firstName);
+
+// Get & Store Last Name
+
+var lastName = prompt();
+//console.log(lastName);
+
+// Display First & Last Name
+
+$('.first').text(firstName);
+$('.last').text(lastName);
+
+// Turn on Lettering
+$('h1').lettering();
